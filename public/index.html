@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coding Assistant - Gemini AI</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Syntax highlighting theme -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💻 Coding Assistant</h1>
+    <p style="text-align:center; color:#666; margin-top:-10px; margin-bottom:15px; font-size:14px;">Powered by Gemini AI — Tanya apapun tentang coding!</p>
+    <div id="chat-box" class="chat-box"></div>
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Contoh: Gimana cara buat loop di Python?" autocomplete="off" required />
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+  <!-- Markdown parser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <!-- Syntax highlighting -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
