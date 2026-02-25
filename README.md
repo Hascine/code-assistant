@@ -1,15 +1,51 @@
-# chatbot-gemini-api
+# code-assistant
 
-To install dependencies:
+Repositori ini berisi project kecil bernama "code-assistant" — sebuah starter app dengan berkas `index.js` dan folder `public/` untuk frontend statis.
+
+Prerequisites
+- Pastikan `bun` terpasang (https://bun.sh).
+
+Instalasi
 
 ```bash
 bun install
 ```
 
-To run:
+Menjalankan aplikasi
+
+- Mode development (watch):
 
 ```bash
-bun run index.ts
+bun run dev
 ```
 
-This project was created using `bun init` in bun v1.3.9. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+- Start (production / normal):
+
+```bash
+bun run start
+```
+
+Jika ingin menjalankan langsung tanpa script:
+
+```bash
+bun index.js
+```
+
+Struktur ringkas
+- `index.js` – entrypoint server
+- `public/` – file frontend: `index.html`, `script.js`, `style.css`
+
+Kontribusi
+- Edit berkas dan commit seperti biasa:
+
+```bash
+git add README.md
+git commit -m "docs: update README"
+git push
+```
+
+Kontak & Lisensi
+- Repo: https://github.com/Hascine/code-assistant
+- Lisensi: tambahkan LICENCE jika perlu
+
+Jika mau, saya bisa menambahkan bagian konfigurasi environment atau instruksi deploy.
