@@ -10,13 +10,15 @@
 </head>
 <body>
   <div class="container">
-    <h1>💻 Coding Assistant</h1>
-    <p style="text-align:center; color:#666; margin-top:-10px; margin-bottom:15px; font-size:14px;">Powered by Gemini AI — Tanya apapun tentang coding!</p>
-    <div id="chat-box" class="chat-box"></div>
-    <form id="chat-form">
-      <input type="text" id="user-input" placeholder="Contoh: Gimana cara buat loop di Python?" autocomplete="off" required />
-      <button type="submit">Kirim</button>
-    </form>
+    <div class="card">
+      <h1>💻 Coding Assistant</h1>
+      <p class="subtitle">Powered by Gemini AI — Tanya apapun tentang coding!</p>
+      <div id="chat-box" class="chat-box"></div>
+      <form id="chat-form" class="form-row">
+        <input type="text" id="user-input" placeholder="Contoh: Gimana cara buat loop di Python?" autocomplete="off" required />
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
   </div>
   <!-- Markdown parser -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
